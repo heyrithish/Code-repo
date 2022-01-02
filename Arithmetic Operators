@@ -1,0 +1,27 @@
+//Arithmetic operations
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter any two numbers: ");
+    scanf("%d%d",&a,&b);
+    printf("\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulo");
+    printf("\nEnter the sl.no of the operation: ");
+    scanf("%d",&c);
+    if (c==1)
+    {printf("The sum of %d and %d is %d",a,b,a+b);
+    }
+    else if (c==2)
+    {(printf("The difference of %d and %d is %d.",a,b,a-b));
+    }
+    else if (c==3)
+    {(printf("The product of %d and %d is %d",a,b,a*b));
+    }
+    else if (c==4)
+    {(printf("The quotient of %d and %d is %d",a,b,a/b));
+    }
+    else if (c==5)
+    {(printf("The remainder of %d and %d is %d",a,b,a%b));
+    }
+    return 0;
+}
