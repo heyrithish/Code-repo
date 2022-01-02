@@ -1,0 +1,35 @@
+//Area of Triangle
+#include<stdio.h>
+#include<math.h>
+    int main()
+    {
+    int n;
+    float s,a,b,c,area;
+    float base,h,area1;
+    printf("Inputs: \n1.Base,Height\n2.Length of three sides\nEnter your input sl.no: ");
+    scanf("%d",&n);
+    switch(n)
+    {
+        case('1'):
+        {
+        
+        //b refers to the length of the base
+        //h refers to the perpendicular height of the triangle
+         printf("\nEnter the length if base: ");
+        scanf("%f",&base);
+        printf("\nEnter the value of height: ");
+        scanf("%f",&h);
+        area1=(0.5*base*h);
+        printf("\nThe area of the triangle with base length %.2f and height &.2f is %.2f",base,h,area1);    }
+    
+    case('2'): 
+    
+    //a,b,c are the lengths of the triangle
+    printf("\n Enter all three values of the sides of the triangle: ");
+    scanf("%f%f%f",a,b,c);
+    s=(a+b+c)/2;
+    area=sqrt(s*(s-a)*(s-b)*(s-c));
+    printf("The area of the triangle with dimensions %.2fx%.2fx%.2f is %.2f",a,b,c,area);
+    }
+     return 0;   
+    }
