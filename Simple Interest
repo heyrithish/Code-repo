@@ -1,0 +1,21 @@
+//Compute Simple Interest
+#include<stdio.h>
+int main()
+{
+    int p,t,r,i;
+    //p refers to Principle amount
+    //t refers to Time period of the loan
+    //r refers to Rate of interest
+    printf("\nEnter the Principle amount: ");
+    scanf("%d",&p);
+    printf("\nEnter the Time period of the loan(in years): ");
+    scanf("%d",&t);
+    printf("\nEnter the rate of interest: ");
+    scanf("%d",&r);
+    i=(p*t*r)/100;
+    printf("\nThe simple interest for the given loan details is %d.",i);
+    printf("\nThe total amount to be paid at end of %d year(s) is %d.",t,p+i);
+    return 0;
+
+
+}
