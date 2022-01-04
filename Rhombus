@@ -1,0 +1,14 @@
+//To find the perimeter of a trapezium
+#include<stdio.h>
+int main()
+{
+    float b1,b2,p;
+    printf("Enter the value of the adjacent length b1: ");
+    scanf("%f",&b1);
+    printf("Enter the value of the adjacent length b2: ");
+    scanf("%f",&b2);
+    p=2*(b1+b2);
+    printf("The perimeter of the rectangle with dimensions %g x %g is %g.",b1,b2,p);
+    return 0;
+
+}
