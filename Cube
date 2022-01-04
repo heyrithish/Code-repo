@@ -1,0 +1,16 @@
+//To find the perimeter of a trapezium
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float a,vol,ar;
+    printf("Enter the value of the side length: ");
+    scanf("%f",&a);
+    vol=pow(a,3);
+    ar=6*pow(a,2);
+    printf("\nThe Volume of a cube with side length %g is %g cubic unit(s).",a,vol);
+    printf("\nThe Surface area of a cube with side length %g is %g square units.",a,ar);
+
+    return 0;
+
+}
