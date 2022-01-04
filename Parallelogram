@@ -1,0 +1,14 @@
+//To find the perimeter of a trapezium
+#include<stdio.h>
+int main()
+{
+    float a,b,ar;
+    printf("Enter the value of the base length: ");
+    scanf("%f",&a);
+    printf("Enter the value of the height: ");
+    scanf("%f",&b);
+    ar=a*b;
+    printf("The area of the rectangle with dimensions base x height %g x %g is %g.",a,b,ar);
+    return 0;
+
+}
