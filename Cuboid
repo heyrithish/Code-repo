@@ -1,0 +1,18 @@
+//To find the volume and surface area of a cuboid
+#include<stdio.h>
+int main()
+{
+    float a,b,c,vol,ar;
+    printf("Enter the value of the length of the cuboid: ");
+    scanf("%f",&a);
+    printf("Enter the value of the breadth of the cuboid: ");
+    scanf("%f",&b);
+    printf("Enter the value of the height of the cuboid: ");
+    scanf("%f",&c);
+    vol=a*b*c;
+    ar=(2*a*b)+(2*b*c)+(2*c*a);
+    printf("\nThe Volume of a cuboid with dimensions %g x %g x %g is %g cubic units",a,b,c,vol);
+    printf("\nThe Surface area of a cuboid with dimensions %g x %g x %g is %g square units.",a,b,c,ar);
+    return 0;
+
+}
