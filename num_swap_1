@@ -1,0 +1,15 @@
+//To swap two variables using temp variable
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter any two integers: ");
+    scanf("%d%d",&a,&b);
+    printf("\nBefore Swapping:\na=%d\tb=%d",a,b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("\nAfter Swapping:\na=%d\tb=%d",a,b);
+    return 0;
+
+}
