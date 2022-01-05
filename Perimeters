@@ -1,0 +1,17 @@
+//To find perimeter of circle and triangle
+#include<stdio.h>
+int main()
+{
+    float r,a,b,c,p1,p2;
+    printf("\nEnter the value of the radius of the circle: ");
+    scanf("%f",&r);
+    printf("\nEnter the values of the sides of triangle: ");
+    scanf("%f%f%f",&a,&b,&c);
+    //all values must be entered in the same units.
+    p1=(2*3.14*r);
+    p2=a+b+c;
+    printf("\nThe perimeter of the circle with the radius %g is %g units.",r,p1);
+    printf("\nThe perimeter of the triangle with dimensions %g x %g x %g is %g units.",a,b,c,p2);
+    return 0;
+
+}
