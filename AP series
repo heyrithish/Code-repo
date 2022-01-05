@@ -2,8 +2,8 @@
 #include<stdio.h>
 int main()
 {
-    int a,n,d,i,series;
-    printf("Input the first number of the series: ");
+    int a,n,d,i,t;
+    printf("Input the first term of the series: ");
     scanf("%d",&a);
     printf("Input the common difference of the series: ");
     scanf("%d",&d);
@@ -12,9 +12,9 @@ int main()
     
 for(i=1;i<=n;i++)
 {
-    series=a+((i-1)*d);
-    printf("%d\t",series);
-    series=0;
+    t=a+((i-1)*d);
+    printf("%d\t",t);
+    t=0;
 }
     return 0;
 }
