@@ -1,0 +1,15 @@
+//To find the volume and surface area of a sphere
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float r,vol,ar;
+    printf("Enter the value of the radius of the sphere: ");
+    scanf("%f",&r);
+    vol=(4*3.14*pow(r,2))/3;
+    ar=(3.14*4*(pow(r,2)));
+    printf("\nThe Volume of a sphere with radius %g is %g cubic units",r,vol);
+    printf("\nThe Surface area of a sphere with radius%g is %g square units.",r,ar);
+    return 0;
+
+}
