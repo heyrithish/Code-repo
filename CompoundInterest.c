@@ -16,4 +16,5 @@ int main()
     i=p*(pow(1+r, t));
     printf("\nThe compound interest formed over %g years is %g.\nTotal amount to be paid at the end is %g.",t,i,(i+p));
     return 0;
+    
 }
